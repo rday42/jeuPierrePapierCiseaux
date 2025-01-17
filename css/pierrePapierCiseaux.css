@@ -1,0 +1,60 @@
+.divPrincipal {
+    width: 100%;
+    height: 100%;
+    padding-top: 400px;
+    background-color: DodgerBlue;
+}
+
+.choixPierrePapierCiseaux {
+    position: relative;
+    margin: auto;
+    width: 500px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.joueurs {
+    position: relative;
+    margin: auto;
+    width: 450px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Cursive;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.joueur1, .joueur2 {
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Cursive;
+    font-size: 20px;
+}
+
+.choixJeu {
+    background-color: DodgerBlue;
+    color: white;
+    margin-top: 15px;
+    margin-left: 3.9%;
+    margin-right: 3.9%;
+    width: 25%;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.message {
+    margin: auto;
+    width: 450px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Cursive;
+    font-size: 20px;
+    padding: 10px;
+}
